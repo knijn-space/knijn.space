@@ -94,7 +94,7 @@ pagination.pagerSize = 5
         [[languages.en.menu.main]]
           identifier = "services"
           name = "Public Services"
-          url = "/services"
+          url = "https://knijn.one/services"
 
         [[languages.en.menu.main]]
           identifier = "space"
