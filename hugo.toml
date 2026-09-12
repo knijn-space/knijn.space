@@ -7,6 +7,10 @@ pagination.pagerSize = 5
   noClasses = false
 
 [params]
+  [params.services]
+    [params.services.umami_analytics]
+      id = 'a2f3e279-e9c8-485f-9ae6-bc3b51eecbf9'
+      script_url = 'https://umami.knijn.one/script.js'
   # dir name of your main content (default is `content/posts`).
   # the list of set content will show up on your index page (baseurl).
   contentTypeName = "posts"
@@ -107,3 +111,5 @@ pagination.pagerSize = 5
   # replacements = "github.com/panr/hugo-theme-terminal/v4 -> themes/terminal"
 [[module.imports]]
   path = 'github.com/panr/hugo-theme-terminal/v4'
+[[module.imports]]
+  path = 'github.com/hugomods/umami-analytics'
