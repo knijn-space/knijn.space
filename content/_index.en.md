@@ -6,7 +6,7 @@ Hey! I'm Emma, I help host various projects for people and offer serverspace and
 ### Personal pages
 * {{< badge "https://status.knijn.one/api/v1/endpoints/knijn-space_rtdsx-knijn-space/uptimes/30d/badge.svg" "Uptime Badge" >}} [rtdsx.knijn.space](https://rtdsx.knijn.space) 
 * {{< badge "https://status.knijn.one/api/v1/endpoints/knijn-space_inky-knijn-space/uptimes/30d/badge.svg" "Uptime Badge" >}} [inky.knijn.space](https://inky.knijn.space) 
-* {{< badge "https://status.knijn.one/api/v1/endpoints/knijn-space-users_k-nunes-com/uptimes/30d/badge.svg" "Uptime Badge" >}}
+* {{< badge "https://status.knijn.one/api/v1/endpoints/knijn-space_k-nunes-com/uptimes/30d/badge.svg" "Uptime Badge" >}}
  [k-nunes.com](https://k-nunes.com) 
 ### FAQ
 **Q:** Is this free?
