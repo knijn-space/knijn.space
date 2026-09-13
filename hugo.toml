@@ -104,6 +104,11 @@ pagination.pagerSize = 5
           identifier = "space"
           name = "knijn.space"
           url = "/"
+
+        [[languages.en.menu.main]]
+          identifier = "pricing"
+          name = "Pricing"
+          url = "/pricing"
 [module]
   # In case you would like to make changes to the theme and keep it locally in you repository,
   # uncomment the line below (and correct the local path if necessary).
