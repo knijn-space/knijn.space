@@ -1,0 +1,15 @@
+{{ $data := resources.GetRemote "https://knijn.one/tags/hosting/index.json" }}
+{{ if $data }}
+  {{ $posts := $data.Content | transform.Unmarshal }}
+  <div class="knijn-one-updates">
+    <h3>Recent updates</h3>
+    <ul>
+      {{ range first 3 $posts }}
+        <li>
+          <a href="{{ .url }}">{{ .title }}</a> ({{ .date }})
+        </li>
+      {{ end }}
+    </ul>
+    <p><a href="https://knijn.one/tags/hosting/">See all updates →</a></p>
+  </div>
+{{ end }}
