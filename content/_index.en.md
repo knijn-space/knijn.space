@@ -16,7 +16,7 @@ Hey! I'm Emma, I help host various projects for people and offer serverspace and
 
 **Q:** What's the catch?
 
-**A:** There is none, your site will stay up as long as I physically am able to. There aren't any costs to the hosting for me, except for the domain. You will need to follow the [TOS](/space/tos).
+**A:** There is none, your site will stay up as long as I physically am able to. There aren't any costs to the hosting for me, except for the domain. You will need to follow the [TOS](/tos).
 
 
 **Q:** How do I sign up?
