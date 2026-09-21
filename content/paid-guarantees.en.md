@@ -8,7 +8,7 @@ Your CPU, RAM, and storage allocation is dedicated to your project and not share
 
 ## Support response
 
-Support requests from paid customers are acknowledged within 3 business days.
+Support requests from paid customers are acknowledged within 1 business day. Direct contact via phone is available.
 
 ## Uptime target
 
