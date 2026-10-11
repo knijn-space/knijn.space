@@ -17,7 +17,6 @@ Knijn Space has two tiers. Both run on the same infrastructure: Amsterdam (ams1)
 
 Everything in Free, plus:
 
-- Dedicated resources (your own allocated CPU, RAM, and storage)
 - Guaranteed support response times
 - A monthly uptime target with service credits if missed
 
