@@ -1,4 +1,4 @@
-baseurl = "/"
+baseurl = "https://knijn.space"
 languageCode = "en-us"
 pagination.pagerSize = 5
 
