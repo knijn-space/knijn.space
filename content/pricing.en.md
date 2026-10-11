@@ -1,4 +1,6 @@
-# Pricing
+---
+title: "Pricing"
+---
 
 Knijn Space has two tiers. Both run on the same infrastructure: Amsterdam (ams1) and Frankfurt (ffm1), with DNS on Cloudflare.
 
