@@ -2,7 +2,7 @@
 title: "Example quotes"
 url: /example-quotes/
 date: 2026-10-11
-draft: true
+draft: false
 description: "What Knijn Space paid plans look like, with worked examples for managed web hosting, managed monitoring and a dedicated VPS."
 ---
 

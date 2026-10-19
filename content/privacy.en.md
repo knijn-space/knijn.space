@@ -3,11 +3,9 @@ title: "Privacy Notice"
 url: /privacy/
 date: 2026-10-11
 lastmod: 2026-10-11
-draft: true
+draft: false
 description: "How Knijn Space handles personal data of hosting customers and website visitors."
 ---
-
-> **Before publishing:** every `[CONFIRM: ...]` below is something only you know. Fill them in, delete this note, and set `draft: false`.
 
 This notice explains what personal data I handle when you use Knijn Space or visit this site, why, and what your rights are. It's written for people hosting with me and for visitors.
 
@@ -44,7 +42,7 @@ Some of these providers are based in or process data in countries outside the Eu
 ## How long I keep data
 
 - **Your hosted data**: deleted within 7 days after your hosting is terminated, unless the law requires me to keep it.
-- **Contact details**: for as long as you host with me, and [CONFIRM: for how long afterwards].
+- **Contact details**: for as long as you host with me, and at most 7 days after your hosting is terminated, unless the law requires me to keep it.
 - **Payment records and receipts**: deleted after 7 years after your hosting is terminated, due to tax regulation.
 - **Server logs**: 31 days.
 - **Backups**: I don't make backups of your data (see the Terms of Service), so nothing is kept that way.

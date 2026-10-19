@@ -1,7 +1,7 @@
 ---
 title: "Privacy Notice and Security Contact"
 date: 2026-10-11
-draft: true
+draft: false
 tags: ["hosting", "privacy"]
 summary: "Knijn Space now has a privacy notice explaining what data I handle and why, and a security.txt for reporting security problems."
 ---
