@@ -9,7 +9,18 @@ Knijn Space has two tiers. Both run on the same infrastructure: Amsterdam (ams1)
 - Best-effort hosting, shared resources.
 - No uptime or support-response guarantees, but service stays up as long as I'm able to keep it up. Status is always visible at [status.knijn.one](https://status.knijn.one).
 - Free migration help from your existing host, regardless of tier.
-- Subject to the [Terms of Service](/tos/). Don't abuse it and we're good.
+- Subject to the [Terms of Service](/tos/).
+
+### What counts as abuse
+
+Free hosting runs on shared resources, so the rules in the Terms of Service matter most here. A site that breaks them can be suspended. The full list is under [Prohibited conduct](/tos/#11-prohibited-conduct); in short, these are the main ones:
+
+- Cryptomining, or any other excessive or abusive use of shared resources.
+- Spam or unsolicited email.
+- Unauthorized network scans or penetration testing.
+- Malware, phishing pages or exploit code, and other illegal, fraudulent or malicious content.
+- Circumventing security measures or rate limits.
+- Reselling or subhosting access to the service without written permission.
 
 **[Email emma@knijn.one to get started](mailto:emma@knijn.one)**
 
