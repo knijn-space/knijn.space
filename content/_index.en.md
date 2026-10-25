@@ -16,7 +16,7 @@ Hey! I'm Emma, I help host various projects for people and offer server space an
 
 I run VPS nodes in **Amsterdam, Netherlands (ams1)** and **Frankfurt, Germany (ffm1)**, with DNS managed through Cloudflare, plus Cloudflare Pages for static deployments. If you have a specific latency or jurisdiction need, get in touch. I'm open to spinning up a node elsewhere on request for the right project.
 
-Live status for all services: [status.knijn.one](https://status.knijn.one)
+Live status for all services: [status.knijn.one](https://status.knijn.one) · [Incident history](/incidents/)
 
 ## Pricing
 

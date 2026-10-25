@@ -1,0 +1,28 @@
+{{- /*
+  Lists incident write-ups: every post tagged "incident", newest first.
+  Optional front matter on those posts: duration, cause.
+*/ -}}
+{{- $incidents := slice -}}
+{{- with site.GetPage "/tags/incident" -}}
+  {{- $incidents = .Pages -}}
+{{- end -}}
+
+{{- if $incidents }}
+<table>
+  <thead>
+    <tr><th>Date</th><th>Incident</th><th>Duration</th><th>Cause</th></tr>
+  </thead>
+  <tbody>
+    {{- range sort $incidents "Date" "desc" }}
+    <tr>
+      <td>{{ .Date.Format "2006-01-02" }}</td>
+      <td><a href="{{ .RelPermalink }}">{{ .Title }}</a></td>
+      <td>{{ .Params.duration | default "-" }}</td>
+      <td>{{ .Params.cause | default "-" }}</td>
+    </tr>
+    {{- end }}
+  </tbody>
+</table>
+{{- else }}
+<p>No incident write-ups have been published on this site yet. Older hosting updates are posted on <a href="https://knijn.one/tags/hosting/">knijn.one</a>.</p>
+{{- end -}}
