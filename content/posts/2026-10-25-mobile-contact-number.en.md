@@ -3,10 +3,10 @@ title: "A Mobile Number for Contact"
 date: 2026-10-25
 draft: false
 tags: ["hosting", "contact"]
-summary: "Knijn Space now lists a mobile phone number alongside email, so there's another way to reach me about hosting."
+summary: "knijn.space now lists a mobile phone number alongside email, so there's another way to reach me about hosting."
 ---
 
-Knijn Space now lists a mobile phone number as a way to get in touch: [+31 6 17136424](tel:+31617136424).
+knijn.space now lists a mobile phone number as a way to get in touch: [+31 6 17136424](tel:+31617136424).
 <!--more-->
 
 You'll find it in the new Contact section on the [home page](/), next to my email address.
