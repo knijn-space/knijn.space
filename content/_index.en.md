@@ -8,9 +8,9 @@ Hey! I'm Emma, I help host various projects for people and offer server space an
 
 ### Personal pages
 
-- {{< badge "https://status.knijn.one/api/v1/endpoints/knijn-space_rtdsx-knijn-space/uptimes/30d/badge.svg" >}} [rtdsx.knijn.space](https://rtdsx.knijn.space)
-- {{< badge "https://status.knijn.one/api/v1/endpoints/knijn-space_inky-knijn-space/uptimes/30d/badge.svg" >}} [inky.knijn.space](https://inky.knijn.space)
-- {{< badge "https://status.knijn.one/api/v1/endpoints/knijn-space_k-nunes-com/uptimes/30d/badge.svg" >}} [k-nunes.com](https://k-nunes.com)
+- {{< badge "https://status.knijn.one/api/v1/endpoints/knijn-space_rtdsx-knijn-space/uptimes/30d/badge.svg" >}} [rtdsx.knijn.space](https://rtdsx.knijn.space) - personal site with a blog and tech showcase
+- {{< badge "https://status.knijn.one/api/v1/endpoints/knijn-space_inky-knijn-space/uptimes/30d/badge.svg" >}} [inky.knijn.space](https://inky.knijn.space) - personal site and about page
+- {{< badge "https://status.knijn.one/api/v1/endpoints/knijn-space_k-nunes-com/uptimes/30d/badge.svg" >}} [k-nunes.com](https://k-nunes.com) - personal site and about page
 
 ## Infrastructure
 
