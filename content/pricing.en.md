@@ -24,6 +24,8 @@ Full specifics: [Paid Plan Guarantees](/paid-guarantees/).
 
 Pricing depends on the resources you need. Email [emma@knijn.one](mailto:emma@knijn.one) with what you're looking to host and I'll put together a quote.
 
+For worked examples of what a paid plan looks like and what it costs, see the [example quotes](/example-quotes/).
+
 ## Need a node somewhere else?
 
 Current infrastructure is in Amsterdam and Frankfurt. If your project needs a different region for latency or jurisdiction reasons, reach out. I'm open to standing up a new node for the right use case, and it won't cost you anything extra if the project is on the free tier.
