@@ -22,6 +22,11 @@ Live status for all services: [status.knijn.one](https://status.knijn.one)
 
 Personal hosting is free, as it's always been. I also offer a paid tier with dedicated resources and support/uptime guarantees. See [Pricing](/pricing/) for details.
 
+## Contact
+
+- **Email:** [emma@knijn.one](mailto:emma@knijn.one) (primary channel, and the one used for official notices)
+- **Mobile phone:** [+31 6 17136424](tel:+31617136424)
+
 ## FAQ
 
 **Q:** Is this free?
@@ -34,7 +39,7 @@ Personal hosting is free, as it's always been. I also offer a paid tier with ded
 
 **Q:** How do I sign up?
 
-**A:** Email me at [emma@knijn.one](mailto:emma@knijn.one), or reach out through any of the contact methods on [knijn.one](https://knijn.one), and we'll figure out what works.
+**A:** Email me at [emma@knijn.one](mailto:emma@knijn.one), call or message me on [+31 6 17136424](tel:+31617136424), or reach out through any of the contact methods on [knijn.one](https://knijn.one), and we'll figure out what works.
 
 **Q:** Do you help migrate existing sites?
 
