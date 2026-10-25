@@ -44,4 +44,4 @@ Personal hosting is free, as it's always been. I also offer a paid tier with ded
 
 **A:** Cloudflare Pages for static deployments (like this site), and VPS nodes in Amsterdam and Frankfurt for everything else. DNS is managed through Cloudflare, though not every service is proxied through it.
 
-{{< knijn-one-updates >}}
+Older hosting updates are also posted on [knijn.one](https://knijn.one/tags/hosting/).
