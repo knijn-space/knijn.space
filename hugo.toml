@@ -92,23 +92,28 @@ pagination.pagerSize = 5
 
         [[languages.en.menu.main]]
           identifier = "home"
-          name = "knijn.one"
-          url = "https://knijn.one"
-
-        [[languages.en.menu.main]]
-          identifier = "services"
-          name = "Public Services"
-          url = "https://knijn.one/services"
-
-        [[languages.en.menu.main]]
-          identifier = "space"
-          name = "knijn.space"
+          name = "Home"
           url = "/"
+          weight = 1
 
         [[languages.en.menu.main]]
           identifier = "pricing"
           name = "Pricing"
           url = "/pricing"
+          weight = 2
+
+        # Entries below leave knijn.space (they open knijn.one), hence the arrow.
+        [[languages.en.menu.main]]
+          identifier = "knijn-one"
+          name = "knijn.one ↗"
+          url = "https://knijn.one"
+          weight = 3
+
+        [[languages.en.menu.main]]
+          identifier = "services"
+          name = "Public Services ↗"
+          url = "https://knijn.one/services"
+          weight = 4
 [module]
   # In case you would like to make changes to the theme and keep it locally in you repository,
   # uncomment the line below (and correct the local path if necessary).
