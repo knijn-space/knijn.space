@@ -1,15 +1,49 @@
-{{ $data := resources.GetRemote "https://knijn.one/tags/hosting/index.json" }}
-{{ if $data }}
-  {{ $posts := $data.Content | transform.Unmarshal }}
-  <div class="knijn-one-updates">
-    <h3>Recent updates</h3>
-    <ul>
-      {{ range first 3 $posts }}
-        <li>
-          <a href="{{ .url }}">{{ .title }}</a> ({{ .date }})
-        </li>
-      {{ end }}
-    </ul>
-    <p><a href="https://knijn.one/tags/hosting/">See all updates →</a></p>
-  </div>
-{{ end }}
+{{- /*
+  Recent hosting updates for the homepage.
+
+  Merges two sources, newest first, and shows the latest three:
+    1. posts published on this site (content/posts), always available
+    2. hosting posts published on knijn.one (fetched at build time)
+
+  If knijn.one cannot be reached the build still succeeds and only this
+  site's own posts are shown.
+*/ -}}
+{{- $items := slice -}}
+{{- $seen := slice -}}
+
+{{- range where site.RegularPages "Section" "posts" -}}
+  {{- $title := .Title | default .File.ContentBaseName -}}
+  {{- $seen = $seen | append (lower $title) -}}
+  {{- $items = $items | append (dict "url" .RelPermalink "title" $title "date" .Date) -}}
+{{- end -}}
+
+{{- with try (resources.GetRemote "https://knijn.one/tags/hosting/index.json") -}}
+  {{- with .Err -}}
+    {{- warnf "knijn-one-updates: could not fetch knijn.one hosting feed: %s" . -}}
+  {{- else with .Value -}}
+    {{- range .Content | transform.Unmarshal -}}
+      {{- if not (in $seen (lower .title)) -}}
+        {{- /* The feed uses site-relative URLs; they must point at knijn.one, not at this site. */ -}}
+        {{- $url := .url -}}
+        {{- if not (hasPrefix $url "http") -}}
+          {{- $url = printf "https://knijn.one%s" $url -}}
+        {{- end -}}
+        {{- $items = $items | append (dict "url" $url "title" .title "date" (time.AsTime .date)) -}}
+      {{- end -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+
+{{- if $items }}
+<div class="knijn-one-updates">
+  <h3>Recent updates</h3>
+  <ul>
+    {{- range first 3 (sort $items "date" "desc") }}
+    <li>
+      <a href="{{ .url }}">{{ .title }}</a> ({{ .date.Format "2006-01-02" }})
+    </li>
+    {{- end }}
+  </ul>
+  <p><a href="https://knijn.one/tags/hosting/">See all updates →</a></p>
+</div>
+{{- end -}}
