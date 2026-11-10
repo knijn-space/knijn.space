@@ -12,15 +12,20 @@ Hey! I'm Emma, I help host various projects for people and offer server space an
 - {{< badge "https://status.knijn.one/api/v1/endpoints/knijn-space_inky-knijn-space/uptimes/30d/badge.svg" >}} [inky.knijn.space](https://inky.knijn.space) - personal site and about page
 - {{< badge "https://status.knijn.one/api/v1/endpoints/knijn-space_k-nunes-com/uptimes/30d/badge.svg" >}} [k-nunes.com](https://k-nunes.com) - personal site and about page
 
+### Monitoring
+
+- {{< badge "https://status.knijn.one/api/v1/endpoints/knijn-space_beszel-juli-knijn-space/uptimes/30d/badge.svg" >}} - beszel instance for julimiro
+- {{< badge "https://status.knijn.one/api/v1/endpoints/knijn-space_status-linksssofrechts-knijn-space/uptimes/30d/badge.svg" >}} [status.linksssofrechts.knijn.space](https://status.linksssofrechts.knijn.space) - gatus instance for linksssofrechts
+
 ## Infrastructure
 
-I run VPS nodes in **Amsterdam, Netherlands (ams1)** and **Frankfurt, Germany (ffm1)**, with DNS managed through Cloudflare, plus Cloudflare Pages for static deployments. If you have a specific latency or jurisdiction need, get in touch. I'm open to spinning up a node elsewhere on request for the right project.
+I run VPS nodes in **Amsterdam, Netherlands (ams1)** and **Frankfurt, Germany (ffm1)**, with DNS managed through Cloudflare. If you have a specific latency or jurisdiction need, get in touch. I'm open to spinning up a node elsewhere on request for the right project.
 
 Live status for all services: [status.knijn.one](https://status.knijn.one)
 
 ## Pricing
 
-Personal hosting is free, as it's always been. I also offer a paid tier with dedicated resources and support/uptime guarantees. See [Pricing](/pricing/) for details.
+Personal hosting is free, and it will always be. I also offer a paid tier with dedicated resources and support/uptime guarantees. See [Pricing](/pricing/) for details.
 
 ## Contact
 
